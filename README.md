@@ -6,14 +6,14 @@ Código simples em PHP que faz as solicitações para as exchanges de criptomoed
 Exchanges:
 
 ```
-Adicionar depois
+Braziliex, Bitcoin trade e Mercado Bitcoin
 ```
 
-Endereço: https://bitcaoarbitrado.000webhostapp.com/cotacao/
+Endereço: https://bitcao.notasdovitor.top/cotacao-eth/
 
 
 ![em funcionamento](https://raw.githubusercontent.com/vitorgamer58/cotacao-bitcoin-php/master/img/img.png)
 
 
 ## Instalação
-ver na [wiki](https://github.com/vitorgamer58/cotacao-bitcoin-php/wiki)
+Basta jogar dentro da pasta do apache e abrir o index.php e o código funcionará mostrando os preços.

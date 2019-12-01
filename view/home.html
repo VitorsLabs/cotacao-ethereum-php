@@ -1,5 +1,6 @@
 <body>
-	<h1>O preço médio ponderado é de: R$ <?=number_format($preco_ponderado, 2, ',', '.')?></h1>
+<h1>Preço do Ethereum</h1>
+	<h2>O preço médio ponderado do ETH é de: R$ <?=number_format($preco_ponderado, 2, ',', '.')?></h2>
 	<table>
 	<tbody>
 		<tr><th colspan="4">Preços por Exchange</th></tr>
@@ -27,24 +28,10 @@
 			<td><?=number_format($mercadobitcoin_volume, 2, ',', '.')?></td>
 			<td><?=$pmercadobitcoin?>%</td>
 		</tr>
-		<tr>
-			<td>Flow BTC</td>
-			<td>R$: <?=number_format($flowbtc_price, 2, ',', '.')?></td>
-			<td><?=number_format($flowbtc_volume, 2, ',', '.')?></td>
-			<td><?=$pflowbtc?>%</td>
-		</tr>
-		<tr>
-			<td>TemBTC</td>
-			<td>R$: <?=number_format($tembtc_price, 2, ',', '.')?></td>
-			<td><?=number_format($tembtc_vol, 2, ',', '.')?></td>
-			<td>*</td>
-		</tr>
 			<td colspan="4" id='total'>O total negociado é de: <?=$volumetotal?> = 100%</td>
 	    </tr>
 	</tbody>
 	</table>
-<div style="">
-<p style="text-align: center; font-size: 10px">A exchange TemBTC não é considerada no cálculo da média ponderada por distorcer sozinhas toda a média devido ao alto volume no qual parte da comunidade brasileira de bitcoins não acredita que seja verdadeiro.</p>
 <br>
-<br>
+Data e hora do servidor em GMT -3: <?=$date?>
 <br>
